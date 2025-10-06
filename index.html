@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Music Playlist App 🎵</h1>
+      <input type="text" id="search" placeholder="Search songs or artists...">
+    </header>
+
+    <main>
+      <div id="playlist"></div>
+    </main>
+
+    <footer>
+      <div id="player">
+        <img id="albumArt" src="" alt="Album Art">
+        <div id="controls">
+          <button id="prev">⏮️</button>
+          <button id="play">▶️</button>
+          <button id="next">⏭️</button>
+          <button id="shuffle">🔀</button>
+        </div>
+        <div id="currentSongInfo">
+          <h3 id="songTitle"></h3>
+          <p id="songArtist"></p>
+          <div id="timer">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+          </div>
+          <input type="range" id="seekBar" value="0" min="0" max="100">
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

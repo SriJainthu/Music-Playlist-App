@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+}
+
+header input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+}
+
+#playlist {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.song img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.song-info {
+  flex: 1;
+}
+
+.song button {
+  background: none;
+  border: none;
+  color: #ff4e50;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  padding: 10px;
+}
+
+#player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#albumArt {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#controls button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#currentSongInfo {
+  width: 90%;
+  text-align: center;
+}
+
+#timer {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#seekBar {
+  width: 100%;
+  margin-top: 5px;
+}
